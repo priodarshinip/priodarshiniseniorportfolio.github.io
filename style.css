@@ -1,0 +1,154 @@
+/* Background*/
+body{
+  background-color: #946656;
+  background-image: url(https://media.istockphoto.com/id/1181378242/vector/zebra-animal-pattern-white-background-vector-striped-texture.jpg?s=612x612&w=0&k=20&c=X1xm1DlA_nEEHGX0k0d6wECq22jz7IbHn1_mdGJWyAA=);
+  background-attachment: fixed;
+}
+
+p{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.child2-p{
+  padding: 1%;
+}
+
+.kitty{
+  height: 300px;
+}
+
+/* Navigation Bar */
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffb3c6;
+  border: solid 2px #fb6f92;
+  border-radius: 8px;
+}
+
+li {
+  float: left;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li a {
+  display: block;
+  color: #fb6f92;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ffe5ec;
+}
+
+/*About Me*/
+.about-me{
+  border: 2px solid #fb6f92;
+  padding: 0px;
+  border-radius: 8px;
+  background-color: #ffb3c6;
+  color: #fb6f92;
+  width: 200px;
+  margin: 2% auto;
+}
+h1 {
+  text-align: center;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.parent {
+    width: 100vw;
+    height: 400px;
+    /* Aligns the children items in a row direction */
+    display: flex;
+    justify-content: center;
+  margin: 0%;
+}
+
+.child1{
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    margin-right: 3%;
+  margin-bottom: 0%;
+  
+}
+
+.child2{
+    width: 300px;
+    height: 300px;
+    background-color: #ffe5ec;
+    margin-left: 3%;
+  text-align: center;
+  border: 2px solid #ff8fab;
+  border-radius: 8px;
+  color: #ff8fab;
+  margin-bottom: 0%;
+}
+
+
+/*projects*/
+.projects-div{
+  border: 2px solid #fb6f92;
+  padding: 0px;
+  border-radius: 8px;
+  background-color: #ffb3c6;
+  color: #fb6f92;
+  width: 200px;
+  margin: 0% auto;
+}
+/*portfolio gallery*/
+* {
+            box-sizing: border-box;
+        }
+
+.container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+.row {
+            margin: 0px -18px;
+            padding: 8px;
+        }
+ 
+        .row>.column {
+            padding: 6px;
+        }
+ 
+        .column {
+            float: left;
+            width: 25%;
+        }
+ 
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .content {
+            background-color: #ffe5ec;
+            padding: 10px;
+            border: 2px solid #fb6f92;
+          border-radius: 8px;
+          color: #fb6f92;
+        }
+
+        .content-text{
+  display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            overflow: hidden;
+        }
